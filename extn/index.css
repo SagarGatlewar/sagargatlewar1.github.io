@@ -1,0 +1,74 @@
+body{
+    background-color: ;
+}
+#slider{
+    transition:5s all;
+    opacity:0.9;
+    height: 500px;
+
+
+}
+#slider:hover{
+
+    transform: scale(1.2) ;
+    opacity: 1;
+    max-width:100%;
+    max-height:100%;
+
+
+}
+#slider:hover img{
+    max-width:100%;
+    max-height:100%;
+
+}
+
+.sliderimg{
+    transition:5s all;
+    opacity:0.9;
+    width: 400px;
+    height:300px;
+
+}
+.sliderimg:hover{
+
+    transform: scale(1.2) ;
+    opacity: 1;
+    max-width:100%;
+    max-height:100%;
+
+
+}
+.sliderimg:hover img{
+    max-width:100%;
+    max-height:100%;
+}
+#card-info{
+    background-color: rgba(255,0,0,0.5);
+    font-size: 22px;
+    font-family: cursive;
+}
+#info{
+    font-size: 30px;
+}
+#progress{
+    background-image: url("img/hdlap (1).jpg");
+    background-size: cover;
+    overflow:hidden;
+
+}
+#progress-bag{
+    margin-left:30px;
+    color:#007bff;
+    transition: all 5s;
+
+}
+#progress-bag:hover{
+    transform: scale(1.1);
+
+}
+#para{
+    letter-spacing: 2px;
+}
+
+#progress-bar
